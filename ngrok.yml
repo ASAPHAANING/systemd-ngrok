@@ -4,6 +4,9 @@ tunnels:
   ssh:
     proto: tcp
     addr: 22
+  vnc:
+    proto: tcp
+    addr: 5900
 #  myapp-http:
 #    addr: 80
 #    proto: http
